@@ -19,7 +19,7 @@ def assign_rooms(attendees)
   return badge_list
 end
 
-def printer
-  badge_maker(name)
-  assign_rooms(attendees)
+def printer(attendees)
+  puts badge_maker(name)
+  puts assign_rooms(attendees)
 end
