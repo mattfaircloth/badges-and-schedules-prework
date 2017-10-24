@@ -14,7 +14,7 @@ def assign_rooms(attendees)
   badge_list = []
 
   attendees.each_with_index {|name, index|
-    badge_list.push("Hello, #{name}! You are in room number #{index + 1}.")
+    badge_list.push("Hello, #{name}! You'll be assigned to room #{index + 1}!")
    }
   return badge_list
 end
