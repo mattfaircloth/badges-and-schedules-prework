@@ -18,3 +18,8 @@ def assign_rooms(attendees)
    }
   return badge_list
 end
+
+def printer
+  badge_maker(name)
+  assign_rooms(attendees)
+end
